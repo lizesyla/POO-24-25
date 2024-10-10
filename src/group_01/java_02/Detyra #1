@@ -1,0 +1,20 @@
+Te krijohet klasa LlogariaBankare, e cila permban vecorite:
+    numriLlogarise, emriKlientit dhe balanca
+dhe metodat:
+- printoTeDhenat() - printon në ekran të dhënat e llogarisë
+        (numri i llogarisë, emri i klientit dhe balanca)
+- depozito(double shuma) - shton nje shume te caktuar ne llogari
+- terhiq(double shuma) - terheq nje shume te caktuar nga balanca,
+        nese ka fonde te mjaftueshme.
+Iniciailizimi i anetareve te klases te behet permes konstruktorit.
+Vlera fillestare e balances eshte 0.0.
+
+Në programin kryesor (main), krijoni dy instanca të klasës LlogariaBankare
+dhe ekzekutoni veprimet e mëposhtme:
+    - Shtoni 500 euro në të dyja llogaritë.
+    - Llogaria e parë tërheq 250 euro.
+    - Llogaria e dytë tërheq 350 euro.
+    - Llogaria e parë shton 100 euro.
+    - Llogaria e parë tërheq 450 euro.
+    - Printoni të dhënat për llogarinë e parë.
+    - Printoni të dhënat për llogarinë e dytë.
