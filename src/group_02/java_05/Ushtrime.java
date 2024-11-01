@@ -87,6 +87,14 @@ public class Ushtrime {
 //        HashMap<Student, ArrayList<Provime> >
         HashMap<String, Integer> map = new HashMap<>();
         map.put("String", 10);
+        map.get("String");
+        map.getOrDefault("String", 0);
+        map.forEach(
+                (key, value) ->{
+                    System.out.println("Key: " + key);
+                    System.out.println("Value: " + value);
+                }
+        );
 
 
 
