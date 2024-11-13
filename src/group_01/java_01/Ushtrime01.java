@@ -18,7 +18,7 @@ package group_01.java_01;
 
 public class Ushtrime01 {
     public static void main(String[] args){
-        printMatrix(krijoMatrix(10, 10));
+        printMatrix(krijoMatrix(3, 3));
     }
 
     static void printMatrix(char[][] matrix){
